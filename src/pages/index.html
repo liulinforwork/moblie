@@ -4,21 +4,9 @@
     <meta charset="UTF-8">
     <title>幸运轮</title>
     <meta name="viewport">
-    <!--<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico"/>-->
-    <!--<link rel="stylesheet" type="text/css" href="./css/inde.css">-->
-    <link rel="stylesheet" type="text/css" href="../css/style.min.css">
-    <script type="text/javascript" charset="utf-8">
-        var deviceWidth = document.documentElement.clientWidth;
-        if(deviceWidth > 1080) deviceWidth = 1080;
-
-        var docEl = document.documentElement;
-        console.log(devicePixelRatio);
-        dpr = window.devicePixelRatio || 1;
-        docEl.setAttribute('data-dpr', dpr);
-        var scale = 1 / devicePixelRatio;
-        document.querySelector('meta[name="viewport"]').setAttribute('content','initial-scale=' + scale + ', maximum-scale=' + scale + ', minimum-scale=' + scale + ', user-scalable=no');
-        document.documentElement.style.fontSize = document.documentElement.clientWidth / 10 + 'px';
-    </script>
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico"/>
+    <script type="text/javascript" charset="utf-8" src="../js/core/common.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/inde.css">
 </head>
 <body>
     <div>
@@ -39,12 +27,14 @@
             而无论页面中使用哪种字体，肉眼很难看出它们的差异，对产品的体验几乎没有影响。
         </p>
         <h1 class="test">“土匪啊”“快跑”这是一个职业的土匪啊</h1>
-        <p class="text">
+        <p class="text color">
             我们可以看出三种不同的中文字体和微软雅黑一样是无衬线字体，有无衬线只是一个小原因，
             而无论页面中使用哪种字体，肉眼很难看出它们的差异，对产品的体验几乎没有影响。
         </p>
         <div class="container"></div>
     </div>
+
     <script type="text/javascript" charset="utf-8" src="./../js/lib/zepto.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./../js/layer/index.js"></script>
 </body>
 </html>

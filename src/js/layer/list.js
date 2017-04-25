@@ -5,5 +5,5 @@
 
     'use strict';
 
-    $('.page1').css('backgroundColor','red');
+    $('.list').css('backgroundColor','red');
 })(Zepto);

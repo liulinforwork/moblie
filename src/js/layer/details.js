@@ -5,5 +5,5 @@
 
     'use strict';
 
-    $('.page2').css('backgroundColor','blue');
+    $('.details').css('backgroundColor','blue');
 })(Zepto);
